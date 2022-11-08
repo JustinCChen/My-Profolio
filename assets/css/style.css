@@ -55,8 +55,6 @@ nav {
   display: flex;
   flex-direction: row;
   font-size: 20px;
-  flex-wrap: wrap;
-  float: right;
 }
 
 nav a {
@@ -80,7 +78,7 @@ nav a:hover {
 .banner{
   background-image: url(../images/02-hero-bg.jpg);
   min-height: 200px;
-  padding:20px;
+  /* padding:20px; */
 }
 
 /* profile picture */
