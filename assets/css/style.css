@@ -78,7 +78,7 @@ nav a:hover {
 .banner{
   background-image: url(../images/02-hero-bg.jpg);
   min-height: 200px;
-  /* padding:20px; */
+  padding:20px;
 }
 
 /* profile picture */
@@ -100,18 +100,7 @@ nav a:hover {
 .profile-image{
   background-image: url("../images/S__8994818.jpg")
 }
-/* </section>
-    <section id="SKILLS"class="page-section">
-      <h2 class="myskills">MY SKILLS</h2>
-      <div class="div-picture">
-        <a href="#" class="flex-picture surf-report">
-          <div>
-            <h3>Surf Report</h3>
-            <span>MERN Stack</span>
-          </div>
-        </a> */
 
-/* main */
 main {
   max-width: 100%;
   margin: 0 auto;
@@ -145,6 +134,33 @@ main {
 .div-picture{
   display: flex;
   flex-wrap: wrap;
+}
+
+.icon{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.icon-picture{
+  background-size: 100%;
+  min-width: 40px;
+  min-height: 40px;
+  margin-top: 120px
+}
+
+.facebook {
+  background-image: url("../images/facebook.png")
+}
+.ig{
+  background-image: url("../images/instagram.png")
+}
+.github {
+  background-image: url("../images/github.png")
+}
+.linkedin{
+  background-image: url("../images/linkedin.png")
 }
 
  
